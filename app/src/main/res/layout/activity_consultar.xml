@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CadastrarActivity">
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Dados do Imóvel"
+        android:textSize="30sp"
+        android:textColor="@color/amarelo"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edt_nomeprop"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Proprietário"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_telefone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_cep"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="CEP"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_cidade"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_uf"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="UF"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_bairro"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Bairro"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_rua"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Rua"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_numero"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Número"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_diaria"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Diária"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_temperatura"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Temperatura"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_umidade"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Umidade do ar"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edt_previsao"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Previsão"
+        android:enabled="false"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_excluirimovel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Excluir Imóvel"
+        android:backgroundTint="@color/amarelo"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Voltar"
+        android:backgroundTint="@color/amarelo"
+        android:textColorHint="@color/black"/>
+</LinearLayout>
